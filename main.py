@@ -206,9 +206,9 @@ class Lunch:
 #Pygame Initiation
 pygame.init()
 screen = pygame.display.set_mode(dimension)
-#'''pygame.display.set_caption('''Snake Olympics''')
-#pygame.mixer.music.load('p4/bgmusic.wav')
-#pygame.mixer.music.play(loops= -1)'''
+pygame.display.set_caption('Snake Olympics')
+pygame.mixer.music.load('bgmusic.wav')
+pygame.mixer.music.play(loops= -1)
 
 stanimal = Main(screen)
 lunch = Lunch(screen)
