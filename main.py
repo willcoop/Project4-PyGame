@@ -257,6 +257,8 @@ while stanimal_loop:
             lunch.away()
             lunch = Lunch(screen)
 
+
+
         elif lunch.color is gold:
             score +=3
             stanimal.full()
@@ -278,6 +280,7 @@ while stanimal_loop:
 
     pygame.display.flip()
     clock.tick(time)
+
 
 pygame.quit()
 
